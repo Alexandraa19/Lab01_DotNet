@@ -31,7 +31,6 @@ Program.cs
 ## Примеры кода
 
 
-```csharp
 Console.Write("Введите ваш средний балл (например, 4.5): ");
 string input = Console.ReadLine();
 
@@ -80,3 +79,60 @@ else
 5.Microsoft: многие внутренние продукты и инструменты (например, Visual Studio, компоненты Windows) разрабатываются с использованием C# и .NET.
 Unity: игровой движок Unity активно использует C# как основной язык скриптинга для создания 2D‑ и 3D‑игр.
 Stack Overflow: веб‑сайт Stack Overflow изначально был построен на ASP.NET (фреймворк в составе .NET) и продолжает использовать эту технологию.
+
+# Задание 1. 
+
+string fG= "the last of us";
+
+int fN = 19;
+
+double piValue = Math.PI;
+
+char fL = 'S';
+
+Console.WriteLine($"Любимая игра/кино/аниме: {fG}");
+Console.WriteLine($"Любимая цифра: {fN}");
+Console.WriteLine($"Значение числа пи: {piValue}");
+Console.WriteLine($"Любимая буква: {fL}");
+
+
+# Задание 2. 
+
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
+
+# Задание 3. 
+Console.WriteLine("Hello There");
+
+# Задание 4.
+int monitor = int.Parse(Console.ReadLine());
+        int systemUnit = int.Parse(Console.ReadLine());
+        int keyboard = int.Parse(Console.ReadLine());
+        int mouse = int.Parse(Console.ReadLine());
+
+        int totalOnePc = monitor + systemUnit + keyboard + mouse;
+        int totalThreePc = totalOnePc * 3;
+
+        Console.WriteLine(totalThreePc);
+
+# Задание 5.
+ int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+
+        long term1 = 3L * (long)Math.Pow(a + b, 3);
+        long term2 = 275L * b * b;
+        long term3 = 127L * a;
+        long term4 = 41L;
+
+        long res = term1 + term2 - term3 - term4;
+
+        Console.WriteLine(res);
+
+ # Задание 6.
+ 
+        int celsius = int.Parse(Console.ReadLine());
+        double fa= celsius * 1.8 + 32;
+        int f = (int)Math.Round(fa);
+        Console.WriteLine($"Температура: {f}°F");  
