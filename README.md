@@ -19,8 +19,7 @@
 
 ## Структура проекта
 Lab1/
-├── 
-Program.cs 
+├── Program.cs 
  Основной файл с реализацией логики программы: ввод анкеты, вычисления возраста и статуса, вывод результатов 
  ├── README.md 
 Текущий файл с описанием лабораторной работы
@@ -51,15 +50,15 @@ else
 3.Различие между целочисленным и дробным делением. В C# результат деления двух целых чисел всегда является целым числом (дробная часть отбрасывается). Для получения дробного результата необходимо явно привести хотя бы один операнд к типу double.
 
 
-# ИТОГОВАЯ ТАБЛИЦА
-Характеристика	C# / .NET
+##ИТОГОВАЯ ТАБЛИЦА
+Характеристика	 C# / .NET
 Платформа	.NET (CLR)
 Компиляция	C# → IL-код → машинный код
 Запуск	dotnet run
 Тип переменной	Указывается явно: int x = 5;
 Вывод в консоль	Console.WriteLine("текст")
 Ввод от пользователя	Console.ReadLine()
-Интерполяция строк	\$"Привет, {name}!"
+Интерполяция строк	$"Привет, {name}!"
 Целочисленное деление	10 / 3 = 3
 Дробное деление	(double)10 / 3 = 3.333...
 Математические функции	Math.Abs(), Math.Pow() и др.
@@ -98,20 +97,19 @@ Console.WriteLine($"Любимая буква: {fL}");
 
 # Задание 2. 
 
-Console.WriteLine("I");
-Console.WriteLine("need");
-Console.WriteLine("more");
-Console.WriteLine("power!");
+        Console.WriteLine("I");
+        Console.WriteLine("need");
+        Console.WriteLine("more");
+        Console.WriteLine("power!");
 
 # Задание 3. 
-Console.WriteLine("Hello There");
+        Console.WriteLine("Hello There");
 
 # Задание 4.
-int monitor = int.Parse(Console.ReadLine());
+        int monitor = int.Parse(Console.ReadLine());
         int systemUnit = int.Parse(Console.ReadLine());
         int keyboard = int.Parse(Console.ReadLine());
         int mouse = int.Parse(Console.ReadLine());
-
         int totalOnePc = monitor + systemUnit + keyboard + mouse;
         int totalThreePc = totalOnePc * 3;
 
